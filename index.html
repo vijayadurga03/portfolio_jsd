@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+  <body>
+    <header style="padding-right: 60px; padding-left: 60px">
+      <h1>Portfolio</h1>
+      <dl>
+        <dd><a class="link" href="#home">Home</a></dd>
+        <dd><a class="link" href="#about">About</a></dd>
+        <dd><a class="link" href="#skills">Skills</a></dd>
+        <dd><a class="link" href="#projects">Projects</a></dd>
+        <dd><a class="link" href="#education">Education</a></dd>
+        <dd><a class="link" href="#certifications">Certifications</a></dd>
+        <dd><a class="link" href="#experience">Experience</a></dd>
+        <dd><a class="link" href="#contact">Contact</a></dd>
+      </dl>
+    </header>
+    <main>
+      <section id="summary-container">
+        <div id="summary">
+        <div style="flex-basis: 50%; flex-grow: 0.5">
+          <p>Hello, I'm</p>
+          <h1>Sunkara Vijaya Durga</h1>
+          <p><b style="color: #3498db;">Junior Software Developer</b> | <b style="color: #3498db;">AI-Driven Full Stack & DevOps Engineer</b></p>
+          <p style="padding: 5px 10px 20px 0px;">
+            Junior Software Developer trained in the Full-Stack and core AI/ML principles. 
+            Leverages foundational knowledge of DevOps to efficiently build and deploy scalable, 
+            intelligent solutions. Dedicated to continuous learning and applying technical expertise 
+            to solve complex challenges.
+          </p>
+          <a class="link" href="#work"><button class="button-radius">View my work</button></a>
+          <a class="link" href="#touch"><button class="button-radius">Get in touch</button></a>
+        </div>
+        <img
+          src="./linkedin-photo.png"
+          alt="sunkara vijaya durga"
+          id="profileimg"
+        />
+        </div>
+        <i class="fa-solid fa-arrow-down-long" style="font-size: 3em;"></i>
+      </section>
+      <section id="about" class="about">
+        <h1>About Me</h1>
+        <p>Get to know me better</p>
+        <h3>Professional Journey</h3>
+        <p>
+          As a Junior Software Developer, I have built a strong foundation in Full-Stack development 
+          and AI/ML principles. My journey began with mastering core programming languages like Python 
+          and JavaScript, which enabled me to develop both frontend and backend solutions. I have 
+          gained hands-on experience with modern frameworks including React.js, Node.js, and Express.js, 
+          while also developing expertise in DevOps practices including CI/CD pipelines, containerization 
+          with Docker, and orchestration with Kubernetes.
+        </p>
+        <p>
+          My passion for AI/ML has driven me to work on innovative projects like DeepHeartNet, where I 
+          developed a 1D-ResNet framework for emotion recognition from heart rate signals, achieving 
+          92.08% test accuracy. I have also contributed to data analytics projects and built automation 
+          workflows that demonstrate my ability to bridge the gap between development and operations. 
+          Through continuous learning and practical application, I am committed to building scalable, 
+          intelligent solutions that solve real-world problems.
+        </p>
+        <div class="flex">
+          <div class="div">
+            <h1>3</h1>
+            <p>Months of Training</p>
+          </div>
+          <div class="div">
+            <h1>5+</h1>
+            <p>Projects Completed</p>
+          </div>
+          <div class="div">
+            <h1>5+</h1>
+            <p>Certifications</p>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills">
+        <h1>Technical Skills</h1>
+        <p>Technologies I work with</p>
+        <div class="flex1">
+          <div class="div1">
+            <h3>Programming Languages</h3>
+            <div>
+              <button class="button-radius1">Python</button>
+              <button class="button-radius1">JavaScript</button>
+            </div>
+          </div>
+          <div class="div1">
+            <h3>Frontend Technologies</h3>
+            <div>
+              <button class="button-radius1">HTML</button>
+              <button class="button-radius1">CSS</button>
+              <button class="button-radius1">React.js</button>
+            </div>
+          </div>
+          <div class="div1">
+            <h3>Backend Technologies</h3>
+            <div>
+              <button class="button-radius1">Node.js</button>
+              <button class="button-radius1">Express.js</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex1">
+          <div class="div1">
+            <h3>Databases</h3>
+            <div>
+              <button class="button-radius1">SQL</button>
+              <button class="button-radius1">MongoDB</button>
+            </div>
+          </div>
+          <div class="div1">
+            <h3>Cloud & DevOps</h3>
+            <div>
+              <button class="button-radius1">Linux</button>
+              <button class="button-radius1">Git</button>
+              <button class="button-radius1">Jenkins</button>
+              <button class="button-radius1">CI/CD</button>
+              <button class="button-radius1">Ansible</button>
+              <button class="button-radius1">Docker</button>
+              <button class="button-radius1">Kubernetes</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <h1 id="work">Featured Projects</h1>
+        <p>Some of my recent work</p>
+        <div class="flex2">
+          <div class="div2">
+            <h3>DeepHeartNet</h3>
+            <p>
+              Deep 1D-ResNet Framework for Emotion Recognition from Heart Rate Signals. 
+              Achieved 92.08% Test Accuracy and ROC-AUC of 0.9553 in binary emotion classification.
+            </p>
+            <button class="button-radius2">Python</button>
+            <button class="button-radius2">Deep Learning</button>
+            <button class="button-radius2">1D-ResNet</button>
+          </div>
+          <div class="div2">
+            <h3>Data Redundancy Removal System</h3>
+            <p>
+              File deduplication proof-of-concept using SHA-256 hashing and MySQL to prevent 
+              duplicate file storage, guaranteeing 100% accuracy in logic checks.
+            </p>
+            <button class="button-radius2">Python</button>
+            <button class="button-radius2">MySQL</button>
+            <button class="button-radius2">SHA-256</button>
+          </div>
+          <div class="div2">
+            <h3>DevOps & Automation Workflows</h3>
+            <p>
+              Built end-to-end CI/CD pipelines using Jenkins integrated with Git/webhooks for 
+              continuous testing and deployment. Automated multi-node software deployment.
+            </p>
+            <button class="button-radius2">Jenkins</button>
+            <button class="button-radius2">Ansible</button>
+            <button class="button-radius2">Docker</button>
+          </div>
+          <div class="div2">
+            <h3>Travel Blog Application</h3>
+            <p>
+              Dynamic blog application using Vite + React framework with post search and 
+              category filtering features. Leveraged Cursor AI for enhanced development workflow.
+            </p>
+            <button class="button-radius2">React.js</button>
+            <button class="button-radius2">Vite</button>
+            <button class="button-radius2">JavaScript</button>
+          </div>
+          <div class="div2">
+            <h3>Product Landing Page</h3>
+            <p>
+              Structured single-page product layout using React.js components and core HTML/CSS, 
+              demonstrating foundational knowledge of modern frontend architecture.
+            </p>
+            <button class="button-radius2">React.js</button>
+            <button class="button-radius2">HTML</button>
+            <button class="button-radius2">CSS</button>
+          </div>
+          <div class="div2">
+            <h3>Single Page Application</h3>
+            <p>
+              Created a Single Page Application using HTML/CSS to display content generated via 
+              the GenAI 101 service, showcasing AI integration in a basic web environment.
+            </p>
+            <button class="button-radius2">HTML</button>
+            <button class="button-radius2">CSS</button>
+            <button class="button-radius2">GenAI</button>
+          </div>
+        </div>
+      </section>
+      
+      <section id="education" class="education">
+        <h1>Education</h1>
+        <p>My academic background</p>
+        <div class="flex2">
+          <div class="div2">
+            <h3>DRK Institute of Science and Technology</h3>
+            <p><strong>B.Tech in Computer Science</strong></p>
+            <p>Duration: 2021-2025</p>
+            <p>Location: Hyderabad, Telangana</p>
+            <p>CGPA: 7.23</p>
+          </div>
+          <div class="div2">
+            <h3>Sri Gayatri Junior College</h3>
+            <p><strong>MPC (Mathematics, Physics, Chemistry)</strong></p>
+            <p>Duration: 2019-2021</p>
+            <p>Location: Hyderabad, Telangana</p>
+            <p>Percentage: 98%</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="certifications">
+        <h1>Certifications</h1>
+        <p>Professional certifications and courses</p>
+        <div class="flex2">
+          <div class="div2">
+            <h3>PYTHON & MACHINE LEARNING</h3>
+            <p><strong>SKILL INTERN</strong></p>
+            <p>February 2025</p>
+            <p>Skills: Python, Machine Learning</p>
+          </div>
+          <div class="div2">
+            <h3>AI & ML Bootcamp</h3>
+            <p><strong>Ace.online</strong></p>
+            <p>January 2024</p>
+            <p>Skills: Artificial Intelligence, Machine Learning</p>
+          </div>
+          <div class="div2">
+            <h3>Gen AI 101 with Pieces</h3>
+            <p><strong>LetsUpgrade</strong></p>
+            <p>March 2025</p>
+            <p>Skills: Gen AI, LLM, HTML</p>
+          </div>
+          <div class="div2">
+            <h3>Swiggy Instamart Data Analysis</h3>
+            <p><strong>Wscube Tech</strong></p>
+            <p>May 2025</p>
+            <p>Skills: Matplotlib, Seaborn, Python, Data Analytics</p>
+          </div>
+          <div class="div2">
+            <h3>Microsoft Power BI</h3>
+            <p><strong>Newton School</strong></p>
+            <p>April 2025</p>
+            <p>Skills: Microsoft Power BI, Data Visualization, Data Analysis, Microsoft Excel</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <h1>Work Experience</h1>
+        <p>Professional experience and internships</p>
+        <div class="flex2">
+          <div class="div2">
+            <h3>Data Analytics & Marketing Intern</h3>
+            <p><strong>KC Overseas Education</strong></p>
+            <p>Duration: March 2025 - May 2025</p>
+            <p>• Accelerated advisory team efficiency by developing visualization prototypes that clearly communicated student ROI and global education trends.</p>
+            <p>• Contributed to a clearer marketing focus by performing data analysis to identify key educational trends and high-value student demographics.</p>
+            <p>• Supported data-driven strategies by collaborating with cross-functional teams to align reports with critical departmental objectives.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="achievements">
+        <h1>Achievements & Activities</h1>
+        <p>Notable accomplishments and participation</p>
+        <div class="flex2">
+          <div class="div2">
+            <h3>Hackathons</h3>
+            <p><strong>ZIGNASA 2K23 24 Hours Hackathon</strong></p>
+            <p>December 2023</p>
+            <p>DATA SCIENCE & MACHINE LEARNING</p>
+            <p>ZIGNASA/MLR Institute of Technology</p>
+          </div>
+          <div class="div2">
+            <h3>Workshops</h3>
+            <p><strong>DATA SCIENCE & MACHINE LEARNING</strong></p>
+            <p>ZIGNASA/MLR Institute of Technology</p>
+          </div>
+          <div class="div2">
+            <h3>Volunteering</h3>
+            <p><strong>WEB CASTING</strong></p>
+            <p>Election Commission of India</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="touch">
+        <h1 id="touch">Get In Touch</h1>
+        <p>Let's work together on your next project</p>
+        <div class="grid">
+          <div>
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects.
+              Whether you have a question or just want to say hi, I'll try my
+              best to get back to you!
+            </p>
+            <a style="text-decoration: none;" href="vijayadurga21n6732@gmail.com" target="_blank"
+              ><button class="button-radius3"><i class="fa-solid fa-envelope"></i>
+                vijayadurga21n6732@gmail.com
+              </button></a
+            >
+            <a style="text-decoration: none;" href="https://github.com/vijayadurga03" target="_blank"
+              ><button class="button-radius3"><i class="fa-brands fa-github"></i> GitHub</button></a
+            >
+            <a style="text-decoration: none;"
+              href="https://www.linkedin.com/in/durgasunkara03/"
+              target="_blank"
+              ><button class="button-radius3"><i class="fa-brands fa-square-linkedin"></i>LinkedIn</button></a
+            >
+          </div>
+          <div class="form">
+            <form>
+              <input class="button-radius4" placeholder="Your Name" type="text" size="30"></input>
+              <input class="button-radius4"  placeholder="Your Email" type="email" size="30"></input>
+              <input class="button-radius4" placeholder="Subject" type="text" size="30"></input>
+              <textarea style="height: 70px" class="button-radius4" name="text" placeholder="Your Message" rows="10" cols="60"></textarea>
+              <button class="button-radius5">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>2025 Sunkara Vijaya Durga. All rights reserved.</p>
+      <div style="margin-left: 55%;" class="icon"><a href="https://github.com/vijayadurga03" target="_blank"
+              ><i class="fa-brands fa-github"></i></a></div>
+      <div class="icon"><a
+              href="https://www.linkedin.com/in/durgasunkara03/"
+              target="_blank"
+              ><i class="fa-brands fa-square-linkedin"></i></a></div>
+      <div class="icon"><a href="vijayadurga21n6732@gmail.com" target="_blank"
+              ><i class="fa-solid fa-envelope"></i></a></div>
+
+    </footer>
+  </body>
+</html>
