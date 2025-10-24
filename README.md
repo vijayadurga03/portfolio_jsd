@@ -44,4 +44,3 @@ I am actively seeking new opportunities in Software Development, particularly ro
 
 * **LinkedIn:** [https://www.linkedin.com/in/durgasunkara03/](https://www.linkedin.com/in/durgasunkara03/)
 * **Email:** vijayadurga21n6732@gmail.com
-* **Portfolio Website:** (Link to your live GitHub Pages or hosted site once it's available!)
